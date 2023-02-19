@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.borderTail {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(68, 110, 237);
+  animation: Tail 8s infinite;
+}
+.borderTail2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(68, 110, 237);
+  animation: Tail2 8s infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
   color: white;
+  transform: rotateY( 180deg );
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes Tail {
+  0%   {top: -5px; left: 50%}
+  16%  {top: -5px; left: 99.2%}
+  32%  {top: 99.2%; left: 99.2%}
+  48%  {top: 99.2%; left: 50%}
+  64%  {top: 99.2%; left: 99.2%}
+  78% {top: -5px; left:99.2%}
+  100% {top: -5px; left:50%}
+}
+@keyframes Tail2 {
+  0%   {top: -5px; left: 50%}
+  16%  {top: -5px; left: -5px}
+  32%  {top: 99.2%; left: -5px}
+  48%  {top: 99.2%; left: 50%}
+  64%  {top: 99.2%; left: -5px}
+  78% {top: -5px; left:-5px}
+  100% {top: -5px; left:50%}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

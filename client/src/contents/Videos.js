@@ -1,0 +1,86 @@
+export const courseVideo1 = [
+    {
+        title:"סרטון היכרות",
+        src:"https://vimeo.com/713020311",
+        cover:"https://i.vimeocdn.com/video/1437519874-8f99f34d46d936508de362f2e6dd6099f90f62bd402a4d4fbf0778b348d9a6ad-d_236x133",
+        time:"06:55",
+    },
+    {
+        title:"שיעור מס׳ 1 - אורך החבל",
+        src:"https://vimeo.com/712971688",
+        cover:"https://i.vimeocdn.com/video/1437441234-74f55f9db2e7381cc6f50fc622224c9af324a66244b4e28b16ee95478e4a9800-d_236x133",
+        time:"04:30",
+    },
+    {
+        title:"שיעור מס׳ 2 - פורמת הידיים",
+        src:"https://vimeo.com/713340921",
+        cover:"https://i.vimeocdn.com/video/1438066705-18278e58d98a0ba3de17909717fea6cad086a571f45bf6ad39e264903d9a548b-d_236x133",
+        time:"05:37",
+    },
+    {
+        title:"שיעור מס׳ 3 - קפיצה בסיסית",
+        src:"https://vimeo.com/713338758",
+        cover:"https://i.vimeocdn.com/video/1438063087-3d0ef96c21eb1c709c79a1a836103c159337f6c8da0210591f3830d236b3ffa2-d_236x133",
+        time:"06:44",
+    },
+    {
+        title:"שיעור מס׳ 4 - תנועת ריצה",
+        src:"https://vimeo.com/713343002",
+        cover:"https://i.vimeocdn.com/video/1438070239-d75414d82e27b193785f8878e1a2e91c9028ebd8e9d4e38cd7e2f6ad2be5196b-d_236x133",
+        time:"05:20",
+    },
+    {
+        title:"שיעור מס׳ 5 - תנועת מתאגרף",
+        src:"https://vimeo.com/714163619",
+        cover:"https://i.vimeocdn.com/video/1439482720-d3d3ccdda1e347e9c86b6b9a511e6f98bf6b5f40fceaf2917e9f8274629781b5-d_236x133",
+        time:"09:15",
+    },
+    {
+        title:"שיעור מס׳ 6 - סיכום עבודות רגליים",
+        src:"https://vimeo.com/714190075",
+        cover:"https://i.vimeocdn.com/video/1439525075-e276e88cc747ad858f8b3d534c13e3cff28fedd5be7bd90e21b236ecce44a40f-d_236x133",
+        time:"02:52",
+    },
+    {
+        title:"שיעור מס׳ 7 - סיבוב אחורה (בונוס)",
+        src:"https://vimeo.com/714225536",
+        cover:"https://i.vimeocdn.com/video/1439580932-c6172a5aeaaf17f52ad42234d93e1a5d866b904a8e64346c7f5779c7cc809ce6-d_236x133",
+        time:"03:55",
+    },
+    {
+        title:"שיעור מס׳ 8 - קרוס אובר",
+        src:"https://vimeo.com/714862762",
+        cover:"https://i.vimeocdn.com/video/1440844421-b8f7b6f34989cfcea02b165e9db3498ade62dc6951fed781e51e62cbe53f8bd1-d_236x133",
+        time:"13:38",
+    },
+    {
+        title:"שיעור מס׳ 9 - קרוס בריצה + דאבל קרוס (בונוס)",
+        src:"https://vimeo.com/714864630",
+        cover:"https://i.vimeocdn.com/video/1440850742-5e8f47f1441f57de1b03502f6dda5b531ad8d3f8451dc92df8f384bd6c358a87-d_236x133",
+        time:"04:43",
+    },
+    {
+        title:"שיעור מס׳ 10 - סייד סווינג",
+        src:"https://vimeo.com/714864630",
+        cover:"https://i.vimeocdn.com/video/1440849870-0aec8247c6ff12fee8e87066f9f2c4bee4430ec38c6600c2bdb6bc939bcec01f-d_236x133",
+        time:"14:13",
+    },
+    {
+        title:"שיעור מס׳ 11 - סאוט׳ פו",
+        src:"https://vimeo.com/714878727",
+        cover:"https://i.vimeocdn.com/video/1440882762-78d5ef9fb172fc9d82514acfd2c6c67371ebe13858c7937454c4d2a2fe25990c-d_236x133",
+        time:"08:05",
+    },
+    {
+        title:"שיעור מס׳ 12 - בניית קומבו (סיכום)",
+        src:"https://vimeo.com/714877619",
+        cover:"https://i.vimeocdn.com/video/1440881290-4f84bc8be3817a3d27a18b99846bdc112b23c666028e676d5110718fae20ae23-d_236x133",
+        time:"10:31",
+    },
+    {
+        title:"שיעור מס׳ 13 - 5 עבודות רגליים (בונוס)",
+        src:"https://vimeo.com/714876137",
+        cover:"https://i.vimeocdn.com/video/1440878987-f47f09c67ffe9960c0648758b386efb3f8f082ca7f1779a7ef3cb3cf4b6f2cfd-d_236x133",
+        time:"13:36",
+    },
+]
